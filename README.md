@@ -1,5 +1,13 @@
 REACT-REDUX
 -----------
+Các file:
+- index: file gốc ứng dụng gọi Component Hello
+- component Hello: chua 2 component Nhap, Xuat
+- reducer nhap: de luu du lieu vao store, va lay du lieu tu store theo cau truc: state.nhap.nameAntribute;
+- action: chua action NHAP
+=> Luong hoat dong: Tu  component nhap -> gui du lieu dua theo action NHAP -> reducer nhap -> luu vao Store
+=> Component->Action->Reducer->Store.
+-----------
 store: de luu state cua app
 - store = createStore(reducer, initialState);
 -----------
