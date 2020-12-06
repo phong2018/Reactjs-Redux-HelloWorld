@@ -11,4 +11,6 @@ const mapStateToProps = state => {
   const name=state.nhap.name; 
   return { name } ;
 }; 
+//map state của store đến đến props của component Xuat bằng function mapStateToProps
+//-> lấy dữ liệu từ store bằng props: name
 export default connect(mapStateToProps)(Xuat);

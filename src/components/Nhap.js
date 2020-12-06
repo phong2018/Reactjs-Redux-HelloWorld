@@ -26,17 +26,12 @@ class Nhap extends React.Component {
           value={this.state.input}
         />
         <button className="add-todo" onClick={this.handleNhap}>
-          HELLO
+          Xuất
         </button>
       </div>
     );
   }
-}
-const mapStateToProps = state => {
-    return { name: state.name};
-};
-
-export default connect(
-    mapStateToProps,
-  { nhap }
-)(Nhap); 
+} 
+//map method của store đến đến props của component Nhap bằng function nhap 
+//-> lưu vào store bằng action: nhap
+export default connect( null,{ nhap })(Nhap); 

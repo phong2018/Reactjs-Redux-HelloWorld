@@ -20,7 +20,7 @@ actions: Để cập nhật store trong redux
 - là một object có trường bắt buộc là type, thương thêm payload {} chứa các thuộc tính khác
 - có thể tạo hàm Action Createors để tạo các action giống nhau, khác thuộc tính.
 -----------
-connect: Kết nối component(react) to store(redux)
+connect: Kết nối component(react) to store(redux) qua reducer
 - https://vhnam.github.io/tutorials/to-da-an-hanh-voi-redux-nhu-the-nao/
 - https://viblo.asia/p/huong-dan-ve-redux-connect-GrLZD89BZk0
 - Component (react) gửi Action -> Reducer xử lý lưu vào Store(redux) = hàm connect()
